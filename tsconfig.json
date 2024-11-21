@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@figma"
+    ],
+    "lib": ["es5", "es2015.promise"],  // Specify only necessary libs
+    "skipLibCheck": true  // Skip type checking of all declaration files (*.d.ts).
+  },
+  "include": ["code.ts"],
+  "exclude": ["node_modules"]
+}
